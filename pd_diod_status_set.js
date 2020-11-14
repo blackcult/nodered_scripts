@@ -11,6 +11,7 @@ var current_state = "turn_" + msg.payload.state;
 var current_time = msg.time;
 var created_time = "";
 var existence = "";
+//testcomment
 
 for (var i=0;i<total;i++) {
     servicename = msg.json.incidents[i].service.summary;
